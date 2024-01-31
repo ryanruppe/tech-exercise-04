@@ -1,7 +1,7 @@
 +++
 title = 'Fifth - Two major challenges around DNS'
 date = 2024-01-30T16:43:26-08:00
-draft = true
+draft = false
 +++
 > _Explain, in a couple of paragraphs, what you think are two major challenges around DNS configuration for less-technical customers hosting websites._
 

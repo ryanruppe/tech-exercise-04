@@ -1,7 +1,7 @@
 +++
 title = 'Seventh - redirect'
 date = 2024-01-30T17:24:37-08:00
-draft = true
+draft = false
 +++
 > _How would you set up an http 301 status redirect from “/netlify/anything” on your site, to https://www.google.com/search?q=anything. Please provide the redirect formatting here. Now, how about a proxy redirect? Please add that proxy redirect rule directly to your site._
 
@@ -23,4 +23,4 @@ status = 301
 ```
 
 
-Link to proxy redirect [link](link)
+Link to proxy redirect [https://rainbow-cat-4d4d00.netlify.app/netlify/anything](https://rainbow-cat-4d4d00.netlify.app/netlify/anything)
