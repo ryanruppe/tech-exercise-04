@@ -1,0 +1,10 @@
++++
+title = 'Fifth - Two major challenges around DNS'
+date = 2024-01-30T16:43:26-08:00
+draft = true
++++
+> _Explain, in a couple of paragraphs, what you think are two major challenges around DNS configuration for less-technical customers hosting websites._
+
+One of the fundamental challenges of setting up DNS for customers who aren't familiar with DNS is explaining the need for it at all. For a lot of users I've encounted the URL for a site and the site itself are essentially synonymous. The first thing is to help someone understand that the collection of files that makes up a web site exists discretely from the domain name which points to that collection of files. Care must be taken to allow a user to zoom in and understand that the monolithic "web site" in their mind is a collection of files and a locator that tells a web browser where to find those files, without making them feel talked down to or dumb. And then the concept of purchasing that domain name from a third party registrar adds another complication.
+
+The next major challenge I have run into customers around DNS configuration is understanding and adding DNS records to an already purchased domain name. First, the concept itself is often a strange one to explain. But then adding the records rarely goes smoothly, as each registrar does things differently. Adding a subdomain to a domain at different registrars gives the user with an empty field which, sometimes, expects just the subdomain, and sometimes expects the subdomain+domain combination. I've personally run into this error a number of times, finding that a customer has added the subdomain of `subdomain.domain.com.domain.com` rather than the subdomain due to insuffient labeling from a domain registrar. Another record issue I have run into is TXT records, which need to be copied completely and precisely, or which need to be split to an exact character limit (including invisible escape characters), which is not published or explained in the registrar's interface.
