@@ -1,4 +1,8 @@
-baseURL = 'https://example.org/'
-languageCode = 'en-us'
-title = 'Tech Exercise for Netlify by RR'
-theme = "ananke"
+[build]
+publish = "public"
+command = "hugo --gc --minify"
+
+[context.production.environment]
+HUGO_VERSION = "0.119.0"
+HUGO_ENV = "production"
+HUGO_ENABLEGITINFO = "true"
